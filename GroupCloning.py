@@ -249,8 +249,7 @@ def super():
 		os.system('rm -rf login.txt')																																			
 		time.sleep(1)																																			
 		login()																																			
-	os.system('clear')																																				
-                print 52 * '\x1b[1;97m\xe2\x95\x90'																																					
+	os.system('clear')																																																																								
                 idg = raw_input('\x1b[1;91m[+] \x1b[1;92mID Group   \x1b[1;91m:\x1b[1;97m ')																																					
                 try:																																					
                     r = requests.get('https://graph.facebook.com/group/?id=' + idg + '&access_token=' + toket)																																					
