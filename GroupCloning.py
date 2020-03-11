@@ -239,7 +239,7 @@ def pilih():
 		pilih()																																			
 																																					
 																																					
-def super():																																					
+def pilih_super():																																					
 	global toket																																				
 	os.system('clear')																																				
 	try:																																				
